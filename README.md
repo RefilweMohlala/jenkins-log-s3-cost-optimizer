@@ -6,6 +6,8 @@ The Jenkins Log S3 Optimizer is a cost-saving automation solution designed to ef
 🔍 Problem Statement
 Jenkins failure build notifications were already set up via Gmail and Slack, eliminating the need for long-term log retention in ELK stack.
 However, logs were still being stored in ELK, resulting in unnecessary storage costs.
+
+
 💡 Solution
 ✅ Automated log migration – A Bash script scans Jenkins job directories and moves daily logs to an S3 bucket.
 ✅ No plugins required – Uses AWS CLI instead of Jenkins extensions, ensuring a lightweight and efficient solution.
@@ -13,11 +15,18 @@ However, logs were still being stored in ELK, resulting in unnecessary storage c
 ✅ Scalable & hands-free – Works across multiple Jenkins job directories, requiring zero manual intervention.
 
 🛠 Technologies Used
+
 🐧 Bash Scripting
+
 🏗 Jenkins
+
 ☁️ AWS S3
+
 🔧 AWS CLI
+
+
 ✨ Benefits
+
 🔹 Simplifies log management without relying on third-party tools.
 🔹 Reduces cloud storage costs by eliminating unnecessary retention.
 🔹 Ensures compliance & efficiency with automated log handling.
