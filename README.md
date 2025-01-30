@@ -28,7 +28,9 @@ However, logs were still being stored in ELK, resulting in unnecessary storage c
 ✨ Benefits
 
 🔹 Simplifies log management without relying on third-party tools.
+
 🔹 Reduces cloud storage costs by eliminating unnecessary retention.
+
 🔹 Ensures compliance & efficiency with automated log handling.
 
 📸 Screenshots
