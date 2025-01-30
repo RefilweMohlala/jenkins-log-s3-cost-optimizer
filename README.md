@@ -23,6 +23,7 @@ However, logs were still being stored in ELK, resulting in unnecessary storage c
 🔹 Ensures compliance & efficiency with automated log handling.
 
 📸 Screenshots
+
 Dummy job
 ![dummy-job](https://github.com/user-attachments/assets/8b884159-dbae-4a6b-b412-4e8daabf0962)
 
